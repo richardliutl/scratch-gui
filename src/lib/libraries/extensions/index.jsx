@@ -29,6 +29,26 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Synth"
+                description="Name for the 'Synth' extension"
+                id="gui.extension.synth.name"
+            />
+        ),
+        extensionId: 'synth',
+        iconURL: musicImage,
+        insetIconURL: musicInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Synth with your Synth."
+                description="Description for the 'Synth' extension"
+                id="gui.extension.synth.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
