@@ -31,19 +31,19 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Synth"
-                description="Name for the 'Synth' extension"
-                id="gui.extension.synth.name"
+                defaultMessage="Audio Sensing"
+                description="Name for the 'Audio Sensing' extension"
+                id="gui.extension.audioSensing.name"
             />
         ),
-        extensionId: 'synth',
+        extensionId: 'audioSensing',
         iconURL: musicImage,
         insetIconURL: musicInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="Synth with your Synth."
-                description="Description for the 'Synth' extension"
-                id="gui.extension.synth.description"
+                defaultMessage="Sense project and microphone audio."
+                description="Description for the 'Audio Sensing' extension"
+                id="gui.extension.audiosensing.description"
             />
         ),
         featured: true
