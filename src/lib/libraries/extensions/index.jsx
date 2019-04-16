@@ -31,19 +31,19 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Audio Sensing"
-                description="Name for the 'Audio Sensing' extension"
-                id="gui.extension.audioSensing.name"
+                defaultMessage="Sound Sensing"
+                description="Name for the 'Sound Sensing' extension"
+                id="gui.extension.soundSensing.name"
             />
         ),
-        extensionId: 'audioSensing',
+        extensionId: 'soundSensing',
         iconURL: musicImage,
         insetIconURL: musicInsetImage,
         description: (
             <FormattedMessage
                 defaultMessage="Sense project and microphone audio."
-                description="Description for the 'Audio Sensing' extension"
-                id="gui.extension.audiosensing.description"
+                description="Description for the 'Sound Sensing' extension"
+                id="gui.extension.soundSensing.description"
             />
         ),
         featured: true
